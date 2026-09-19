@@ -4,6 +4,8 @@ A data-loss-prevention proxy for Model Context Protocol traffic. It sits between
 AI agent and an MCP server, inspects every tool call in both directions, and replaces
 sensitive values with stable placeholders before the model ever sees them.
 
+# Live
+[MCP-Guard Live Dashboard](https://mcp-guard-1.onrender.com/)
 ```
 ┌─ automatic feed (off by default, Start/Stop in the console)
 ├─ manual upload (paste or drop a file in the console)
@@ -17,6 +19,9 @@ sensitive values with stable placeholders before the model ever sees them.
         ├─ masking engine    [REDACTED_SSN_1]
         └─ audit log ──▶ MongoDB (or in-memory) ──▶ console (copy / download / export)
 ```
+# Preview
+https://github.com/user-attachments/assets/1b5a0a75-2593-4875-b230-97f1f82959e6
+
 
 ## What's in this build
 
